@@ -1,4 +1,4 @@
-import warningTabStyle from '../styles/warningTab.module.css'
+import warningTabStyle from '../../styles/warningTab.module.css'
 
 function WarningTab(){
     return <div class={warningTabStyle.body1}>
@@ -9,6 +9,6 @@ function WarningTab(){
             <button class={warningTabStyle.okay_button}>Okay</button>
         </div>
     </div> 
-  }
+}
 
-  export default WarningTab;
+export default WarningTab;
