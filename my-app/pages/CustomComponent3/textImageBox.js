@@ -3,7 +3,7 @@ import textImageBoxStyle from '../../styles/textImageBox.module.css'
 function TextImageBoxUI(){
     return <div className={textImageBoxStyle.main} style={{
         width:300,
-        height:400,
+        height:450,
     }}>
         <h3 className={textImageBoxStyle.h3}>Default Text</h3>
         <img src="http://placekitten.com/250/150" className={textImageBoxStyle.img}></img>
