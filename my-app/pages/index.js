@@ -1,4 +1,27 @@
-import textImageBoxStyle from '../styles/textImageBox.module.css'
+import {ContactPage} from '../pages/CustomComponent1/contactPage';
+import {WarningTab} from './CustomComponent2/warningTab';
+import {TextImageBoxUI} from '../pages/CustomComponent3/textImageBox';
+import {NavigationBar} from './CustomComponent4/navSideBar';
+
+function Home(){
+    return <div className="container">
+        <div className="container2">
+            <NavigationBar/>
+            <br></br>
+        </div>
+        <div className="container3">
+            <ContactPage/>
+            <br></br>
+            <WarningTab/>
+            <br></br>
+            <TextImageBoxUI/>
+        </div>
+    </div>
+}
+
+export default Home;
+
+/*import textImageBoxStyle from '../styles/textImageBox.module.css'
 
 function TextImageBoxUI(){
     return <div className={textImageBoxStyle.main} style={{
@@ -14,13 +37,13 @@ function TextImageBoxUI(){
     </div>
 }
     
-export default TextImageBoxUI;
+export {TextImageBoxUI};
 
 
 
-import contactPageStyle from '../styles/contactPage.module.css'
+import contactPageStyle from '../styles/contactPage.module.css'*/
 
-function ContactPage(){
+/*function ContactPage(){
     return <div class={contactPageStyle.body}>
         <div class={contactPageStyle.container}>
         <h3 class={contactPageStyle.login}>LOGIN</h3>
@@ -36,11 +59,11 @@ function ContactPage(){
     </div>
 }
   
-export default ContactPage; 
+export {ContactPage}; */
 
 
 
-import navSideBar from '../styles/navSideBar.module.css'
+/*import navSideBar from '../styles/navSideBar.module.css'
 
 function navigationBar(){
     return <div className={navSideBar.navBar}>
@@ -55,11 +78,11 @@ function navigationBar(){
     </div>
 }
 
-export default navigationBar;
+export {navigationBar};*/
 
 
 
-import warningTabStyle from '../styles/warningTab.module.css'
+/*import warningTabStyle from '../styles/warningTab.module.css'
 
 function WarningTab(){
     return <div class={warningTabStyle.body1}>
@@ -72,4 +95,5 @@ function WarningTab(){
     </div> 
   }
 
-export default WarningTab;
+export {WarningTab};*/
+

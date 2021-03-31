@@ -12,3 +12,5 @@ function WarningTab(){
 }
 
 export default WarningTab;
+
+export {WarningTab};

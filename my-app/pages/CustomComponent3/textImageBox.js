@@ -15,3 +15,5 @@ function TextImageBoxUI(){
 }
     
 export default TextImageBoxUI;
+
+export {TextImageBoxUI};
