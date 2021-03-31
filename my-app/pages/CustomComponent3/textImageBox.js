@@ -1,7 +1,7 @@
 import textImageBoxStyle from '../../styles/textImageBox.module.css'
 
 function TextImageBoxUI(){
-    return <div className="main" style={{
+    return <div className={textImageBoxStyle.main} style={{
         width:300,
         height:400,
     }}>
