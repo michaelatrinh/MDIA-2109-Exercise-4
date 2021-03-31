@@ -1,4 +1,4 @@
-import textImageBoxStyle from '../styles/textImageBox.module.css'
+import textImageBoxStyle from '../../styles/textImageBox.module.css'
 
 function TextImageBoxUI(){
     return <div className="main" style={{

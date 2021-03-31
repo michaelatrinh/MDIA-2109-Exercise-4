@@ -1,0 +1,43 @@
+.main {
+    padding-top:20px 10px 10px 10px;
+    border: solid black;
+    background-color: aliceblue;
+  }
+  
+  .h3{
+    text-align: center;
+  }
+  
+  .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  
+  .p{
+    padding-right:25px;
+    padding-left:25px;
+  }
+  
+  .span {
+    font-size: 25px;
+    font-weight: bolder;
+    color: blue;
+  }
+  
+  #button{
+    border-radius: 10px;
+    background-color: rgb(163, 232, 255);
+    height:30px;
+    width: 100px;
+    
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #button:hover{
+    background-color: rgb(204, 251, 255);
+  }
